@@ -7,7 +7,7 @@ if status is-interactive
 
     # Defaults
     set -gx TERMINAL kitty
-    set -gx EDITOR nvim
+    set -gx EDITOR "$HOME/.local/bin/zed --wait"
     set -gx VISUAL $EDITOR
     set -gx PAGER less
 

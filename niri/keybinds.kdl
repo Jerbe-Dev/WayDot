@@ -23,10 +23,9 @@ binds {
     Mod+Space hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
 
     // Custom Application Shortcuts
-    Mod+C { spawn "code"; }
     Mod+V { spawn "Vesktop"; }
     Mod+E { spawn "nautilus"; }
-    Mod+B { spawn "firefox"; }
+    Mod+B { spawn "brave-browser"; }
     Mod+Z { spawn "__HOME__/.local/bin/zed";}
     Alt+Return { spawn "kitty";}
 

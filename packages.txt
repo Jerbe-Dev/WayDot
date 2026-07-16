@@ -17,7 +17,6 @@ sddm
 nwg-look
 
 # ── Terminal & Shell ───────────────────────────────────────────
-alacritty
 kitty
 fish
 starship
@@ -33,10 +32,8 @@ pipewire-pulse
 pipewire-alsa
 wireplumber
 pavucontrol
-cava
 
 # ── Video ──────────────────────────────────────────────────────
-mpv
 vlc
 
 # ── Brightness & Power ────────────────────────────────────────
@@ -55,7 +52,6 @@ network-manager-applet
 flameshot
 grim
 slurp
-swappy
 imagemagick
 
 # ── File Manager ───────────────────────────────────────────────
@@ -66,14 +62,10 @@ nautilus
 gtklock
 
 # ── Browser ────────────────────────────────────────────────────
-firefox
 
 # ── Development ────────────────────────────────────────────────
-neovim
 git
-lazygit
 zed
-code
 python
 python-pip
 nodejs
@@ -81,7 +73,6 @@ npm
 rust
 
 # ── System Monitor ─────────────────────────────────────────────
-bottom
 btop
 
 # ── Terminal Utilities ─────────────────────────────────────────
@@ -111,8 +102,6 @@ qt5ct
 font-manager
 obsidian
 obs-studio
-godot
-pomoru
 cmatrix
 cowsay
 figlet
