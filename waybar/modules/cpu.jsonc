@@ -5,7 +5,7 @@
     "format": "C {usage}%",
     "format-alt": "{avg_frequency}GHz",
     "max-length": 10,
-    "on-click": "alacritty -e btop",
+    "on-click": "kitty btop",
     "tooltip": true
   }
 }

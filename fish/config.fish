@@ -6,7 +6,7 @@ if status is-interactive
     set -gx LC_ALL en_US.UTF-8
 
     # Defaults
-    set -gx TERMINAL alacritty
+    set -gx TERMINAL kitty
     set -gx EDITOR nvim
     set -gx VISUAL $EDITOR
     set -gx PAGER less
@@ -91,7 +91,7 @@ if status is-interactive
         set -g __fetch_ran 1
 
         if not set -q TMUX
-            if set -q ALACRITTY_WINDOW_ID; or string match -qi '*alacritty*' $TERM
+            if set -q KITTY_WINDOW_ID; or string match -qi '*kitty*' $TERM
                 type -q fastfetch; and fastfetch
             else if string match -qi 'foot*' $TERM
                 type -q neofetch; and neofetch
