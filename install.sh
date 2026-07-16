@@ -62,7 +62,6 @@ yay -S --needed --noconfirm \
     brave-bin \
     vesktop-bin \
     sddm-sugar-candy-git \
-    pomoru \
     2>/dev/null || warn "Some AUR packages may have failed"
 
 # ── Create Directories ────────────────────────────────────────

@@ -74,7 +74,7 @@ main_menu() {
             nm-connection-editor &
             ;;
         "$OPT_NMTUI")
-            alacritty -e nmtui &
+            kitty nmtui &
             ;;
         "$OPT_SCAN")
             scan_menu
