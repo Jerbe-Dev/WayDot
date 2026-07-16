@@ -70,14 +70,6 @@ window-rule {
 }
 
 window-rule {
-    match app-id="firefox"
-    opacity 0.8
-    background-effect {
-    blur true
-    }
-    open-maximized true
-}
-window-rule {
     match app-id="vesktop"
     opacity 0.85
     open-maximized true
@@ -93,31 +85,6 @@ window-rule {
         blur true
     }
 }
-window-rule{
-  match app-id="Godot"
-  open-maximized true
-  opacity 0.9
-  background-effect {
-        blur true
-    }
-}
-
-window-rule{
-  match app-id="code-oss"
-  open-maximized true
-  opacity 0.9
-  background-effect {
-        blur true
-    }
-}
-
-window-rule{
-  match app-id="nvim"
-  open-maximized true
-  background-effect {
-        blur true
-    }
-}
 
 window-rule {
     match app-id="discord"
@@ -127,15 +94,6 @@ window-rule {
         blur true
     }
 }
-window-rule {
-    match app-id="obsidian"
-    opacity 0.9
-    open-maximized true
-    background-effect {
-        blur true
-    }
-}
-
 
 layer-rule {
     match namespace="^waybar$"
@@ -152,12 +110,11 @@ layer-rule {
     }
 }
 
-// Open the Firefox picture-in-picture player as floating by default.
+// Open picture-in-picture players as floating by default.
+// Brave's PiP window currently ships with no app-id (open Chromium/Brave bug),
+// so this matches on title only.
 window-rule {
-    // This app-id regular expression will work for both:
-    // - host Firefox (app-id is "firefox")
-    // - Flatpak Firefox (app-id is "org.mozilla.firefox")
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match title="^Picture-in-Picture$"
     open-floating true
 }
 
