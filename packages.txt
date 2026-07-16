@@ -1,0 +1,121 @@
+# ╔═══════════════════════════════════════════════════════════════╗
+# ║  Niri Minimal Dots - Package List                            ║
+# ║  Install with: pacman -S --needed - < packages.txt           ║
+# ╚═══════════════════════════════════════════════════════════════╝
+
+# ── Window Manager & Core ──────────────────────────────────────
+niri
+waybar
+fuzzel
+mako
+wlogout
+swaybg
+nm-applet
+polkit-gnome
+gnome-keyring
+sddm
+nwg-look
+
+# ── Terminal & Shell ───────────────────────────────────────────
+alacritty
+kitty
+fish
+starship
+fastfetch
+
+# ── Clipboard ──────────────────────────────────────────────────
+wl-clipboard
+cliphist
+
+# ── Audio ──────────────────────────────────────────────────────
+pipewire
+pipewire-pulse
+pipewire-alsa
+wireplumber
+pavucontrol
+cava
+
+# ── Video ──────────────────────────────────────────────────────
+mpv
+vlc
+
+# ── Brightness & Power ────────────────────────────────────────
+brightnessctl
+upower
+
+# ── Bluetooth ──────────────────────────────────────────────────
+bluez
+bluez-utils
+
+# ── Network ────────────────────────────────────────────────────
+networkmanager
+network-manager-applet
+
+# ── Screenshots ────────────────────────────────────────────────
+flameshot
+grim
+slurp
+swappy
+imagemagick
+
+# ── File Manager ───────────────────────────────────────────────
+nnn
+nautilus
+
+# ── Lock Screen ────────────────────────────────────────────────
+gtklock
+
+# ── Browser ────────────────────────────────────────────────────
+firefox
+
+# ── Development ────────────────────────────────────────────────
+neovim
+git
+lazygit
+zed
+code
+python
+python-pip
+nodejs
+npm
+rust
+
+# ── System Monitor ─────────────────────────────────────────────
+bottom
+btop
+
+# ── Terminal Utilities ─────────────────────────────────────────
+fd
+ripgrep
+fzf
+zoxide
+unzip
+7zip
+unrar
+less
+tree
+tldr
+ripgrep-all
+
+# ── Fonts ──────────────────────────────────────────────────────
+ttf-firacode-nerd
+noto-fonts-emoji
+
+# ── Misc ───────────────────────────────────────────────────────
+papirus-icon-theme
+bibata-cursor-theme
+adw-gtk-theme
+dracula-gtk-theme
+qt6ct
+qt5ct
+font-manager
+obsidian
+obs-studio
+godot
+pomoru
+cmatrix
+cowsay
+figlet
+toilet
+sl
+neofetch
