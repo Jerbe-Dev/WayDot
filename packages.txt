@@ -8,9 +8,7 @@ niri
 waybar
 fuzzel
 mako
-wlogout
 swaybg
-nm-applet
 polkit-gnome
 gnome-keyring
 sddm

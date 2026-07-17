@@ -58,6 +58,7 @@ yay -S --needed --noconfirm \
     niri-git \
     niri-settings-git \
     niri-utils \
+    wlogout \
     bibata-cursor-theme-bin \
     brave-bin \
     vesktop-bin \
