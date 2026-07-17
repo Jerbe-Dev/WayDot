@@ -39,7 +39,7 @@ echo -e "${NC}"
 # ── Install Packages ───────────────────────────────────────────
 log "Installing packages from packages.txt..."
 if [ -f "$DOTFILES_DIR/packages.txt" ]; then
-    sudo pacman -S --needed --noconfirm - < "$DOTFILES_DIR/packages.txt"
+    sudo pacman -S --needed --noconfirm - < <(grep -vE '^[[:space:]]*#|^[[:space:]]*$' "$DOTFILES_DIR/packages.txt")
 else
     warn "packages.txt not found, skipping package installation"
 fi

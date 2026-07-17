@@ -94,17 +94,8 @@ noto-fonts-emoji
 
 # ── Misc ───────────────────────────────────────────────────────
 papirus-icon-theme
-bibata-cursor-theme
 adw-gtk-theme
-dracula-gtk-theme
 qt6ct
 qt5ct
 font-manager
 obsidian
-obs-studio
-cmatrix
-cowsay
-figlet
-toilet
-sl
-neofetch
